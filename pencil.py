@@ -225,8 +225,8 @@ def pencil_draw(path="img/sjtu.jpg", gammaS=1, gammaI=1):
     img = Image.fromarray(IPencil * 255)
     # img.show()
 
-    save_output(Image.fromarray(S * 255), name + "_s", suffix)
-    save_output(Image.fromarray(T * 255), name + "_t", suffix)
+    # save_output(Image.fromarray(S * 255), name + "_s", suffix)
+    # save_output(Image.fromarray(T * 255), name + "_t", suffix)
     save_output(img, name + "_pencil", suffix)
 
     return name + suffix

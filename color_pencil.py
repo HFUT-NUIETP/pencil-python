@@ -43,8 +43,8 @@ def color_draw(path="img/sjtu.jpg", gammaS=1, gammaI=1):
     name = path.rsplit("/")[-1].split(".")[0]
     suffix = path.rsplit("/")[-1].split(".")[1]
 
-    save_output(Image.fromarray(S * 255), name + "_s", suffix)
-    save_output(Image.fromarray(T * 255), name + "_t", suffix)
+    # save_output(Image.fromarray(S * 255), name + "_s", suffix)
+    # save_output(Image.fromarray(T * 255), name + "_t", suffix)
     save_output(img, name + "_color", suffix)
 
 
