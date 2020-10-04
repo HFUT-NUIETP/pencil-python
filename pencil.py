@@ -30,8 +30,9 @@ from scipy.sparse.linalg import spsolve as spsolve
 import math
 import os
 import sys
-reload(sys)
-sys.setdefaultencoding("utf-8")
+import importlib
+importlib.reload(sys)
+# sys.setdefaultencoding("utf-8")
 
 
 basedir = os.path.dirname(__file__)

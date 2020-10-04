@@ -29,7 +29,7 @@ def rot90(I, n=1):
     '''
     rI = I
     for x in range(n):
-        rI = zip(*rI[::-1])
+        rI = list(zip(*rI[::-1]))
     return rI
 
 
